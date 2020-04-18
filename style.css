@@ -34,6 +34,13 @@ ul {
   list-style: none;
 }
 
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
 /* header */
 header {
   display: flex;
@@ -75,3 +82,21 @@ header .icons .fa-search {
 }
 
 /* metadata */
+.info .metadata .hashtag {
+  display: flex;
+  color: var(--blue-color);
+  font-size: var(--font-small);
+}
+
+.info .metadata .hashtag li {
+  margin-right: var(--spacing-small);
+}
+
+.info .metadata .titleAndButton {
+  display: flex;
+}
+
+.info .metadata .titleAndButton .title {
+  font-size: var(--font-medium);
+  margin-right: var(--spacing);
+}
