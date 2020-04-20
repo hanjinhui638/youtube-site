@@ -39,6 +39,7 @@ button:focus {
   border: none;
   cursor: pointer;
   background-color: transparent;
+  outline: none;
 }
 
 /* header */
